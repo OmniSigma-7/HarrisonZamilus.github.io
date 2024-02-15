@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Projects</title>
+    <!-- Link to Bootstrap CSS (you need to download it or link via CDN) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* CSS to set video as background */
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            opacity: 1; /* Adjust the opacity as needed */
+        }
+        /* Style for the container to center the content */
+        .container {
+            position: relative;
+            z-index: 2;
+        }
+        /* Set text color to black */
+        .card-text {
+            color: #000;
+        }
+        /* Style for the bottom box */
+        .bottom-box {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px; /* Add margin to separate from the project cards */
+        }
+    </style>
+</head>
+<body>
+    <video controls autoplay loop>
+        <source src="tatum3.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1 class="mt-4 text-white">Computer Science Projects</h1>
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazon Scraper</h5>
+                        <p class="card-text">Worked with a group in creating a scraper that grabbed 500 pages of items from Amazon in tandem with its API. We also had to insert the data and filter through each item e.g a game or mouse </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Banking app</h5>
+                        <p class="card-text">Bit on the smaller end of what the object was but it was an introduction into to OOP in Java which was challenging but pretty fun</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculator</h5>
+                        <p class="card-text">One of the projects I did was work on a Calculator using Kotlin. Was pretty fun to do.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom box -->
+        <div class="bottom-box">
+            <h2>Group Project</h2>
+            <p>I probably wasn't there that day we got into groups but, if I were to have an idea, maybe  create a sign in interface </p>
+        </div>
+    </div>
+</body>
+</html>
